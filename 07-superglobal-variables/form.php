@@ -10,7 +10,7 @@
 
     <h1>Form in PHP</h1>
     <!-- action is the place where i go -->
-    <form method="GET" action="get-info.php">
+    <form method="POST" action="post-info.php">
         <p>
             <label for="name">Name</label>
             <input type="text" name="name" id="name">
