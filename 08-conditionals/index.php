@@ -51,15 +51,45 @@ $continent = "Europe";
 $age = 49;
 const MAYORAGE = 18;
 
-if ($edad >= MAYORAGE) {
+//No es muy recomendable realizar tantos if
+if ($age >= MAYORAGE) {
+
+    echo "<h1>$name es mayor de edad</h1>";
+
     if($continent == "Europe") {
-        echo "<h2>Y es de $ciudad</h2>";
+        echo "<h2>Y es de $city</h2>";
     } else {
         echo "No es Europeo";
     }
 } else {
-    echo "<h2>$nombre NO es mayor de edad</h2>";
+    echo "<h2>$name NO es mayor de edad</h2>";
 }
+
+echo "<br>";
+echo "<hr>";
+
+// Example 4
+$day = 3;
+
+//Se también se puede aplicar swithc
+
+if ($day == 1) {
+    echo "Es Lunes";
+} else if($day == 2) {
+    echo "Es Martes";
+} else if ($day == 3){
+    echo "Es Miercoles";
+} else if ($day == 4){
+    echo "Es Jueves";
+} else if ($day == 5){
+    echo "Es Viernes";
+} else if ($day == 6){
+    echo "Es Sabado";
+} else if ($day == 7){
+    echo "Es Domingo";
+}
+
+
 
 
 ?>
