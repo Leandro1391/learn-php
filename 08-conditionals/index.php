@@ -95,7 +95,41 @@ if ($day == 1) {
     echo "Es Domingo";
 }
 
+//SWITCH
+$day = 4;
+
+echo "</br>";
+
+switch ($day) {
+    case 1:
+        echo "MONDAY";
+        break;
+    case 2:
+        echo "TUESDAY";
+        break;
+    case 3:
+        echo "WEDNESDAY";
+        break;
+    case 4:
+        echo "THURSDAY";
+        break;
+    case 5:
+        echo "FRIDAY";
+        break;
+    case 6:
+        echo "SATURDAY";
+        break;
+    case 7:
+        echo "SUNDAY";
+        break;
+    default:
+        echo "not match";
+}
+
 //Example 5
+
+echo "<br>";
+echo "<hr>";
 
 //Logical Operators
 
@@ -119,5 +153,18 @@ if($country == "Mexico" || $country == "Span" || $country = "Colombia"){
     echo "Not speak spanish";
 }
 
+//GO TO salta de una linea de la ejecucion a la que yo especifico en el codigo
+//No se recomienda usarlo
 
+echo "<br>";
+
+goto mark;
+echo "<h3>Instruccion 1</h3>";
+echo "<h3>Instruccion 2</h3>";
+echo "<h3>Instruccion 3</h3>";
+echo "<h3>Instruccion 4</h3>";
+echo "<h3>Instruccion 5</h3>";
+
+mark:
+echo "I have been jump to five echos";
 ?>
