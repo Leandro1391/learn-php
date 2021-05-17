@@ -20,6 +20,12 @@
  > mayor than
  <= minor or equal than
  >= major or equal than
+
+ //Logical Operators
+ && AND Y
+ || OR O
+ ! NOT NO
+ and, or
 */
 
 //Example 3
@@ -89,7 +95,29 @@ if ($day == 1) {
     echo "Es Domingo";
 }
 
+//Example 5
 
+//Logical Operators
+
+$age1 = 18;
+$age2 = 64;
+$ageOficial = 20;
+
+if ($ageOficial >= $edad1 && $edadOfitial <= $edad2) {
+    echo "This is the age for work";
+} else {
+    echo "He dosen't work";
+}
+
+echo "<br>";
+echo "<hr>";
+
+$country = "Mexico";
+if($country == "Mexico" || $country == "Span" || $country = "Colombia"){
+    echo "In this country speak spanish";
+} else {
+    echo "Not speak spanish";
+}
 
 
 ?>
